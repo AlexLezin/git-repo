@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<script>
+
+var amount = parseInt(prompt("Посчитаем вклад. Введите сумму:"));
+var interest = parseInt(prompt("Введите процент:"))*0.01;
+var time = parseInt(prompt("Введите срок:"));
+
+for (n=0;n<=time;n++) {
+  amount = amount + amount*interest;
+  alert("Итоги года " + n + ": " + amount)
+}
+
+</script>
