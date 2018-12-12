@@ -2,29 +2,29 @@
 <script>
 
 alert("Сыграем в загадки?")
-var trueans = 0;
+var score = 0;
 var ans1 = prompt("Зимой и летом одним цветом?").toUpperCase();
 if (ans1 == "ЁЛКА" || ans1 == "ЕЛКА") {
-  alert("Угадал!");
-  trueans += 1;
+  alert("Верно!");
+ score += 1;
 } else {
-  alert("Не угадал!")
+  alert("Не верно!")
 }
 var ans2 = prompt("Без окон без дверей полна горница людей?").toUpperCase();
 if (ans2 == "ОГУРЕЦ") {
-  alert("Угадал!");
-  trueans += 1;
+  alert("Верно!");
+ score += 1;
 } else {
-  alert("Не угадал!")
+  alert("Не верно!")
 }
 var ans3 = prompt("Сидит красна девица в темнице, а коса на улице?").toUpperCase();
 if (ans3 == "МОРКОВЬ") {
-  alert("Угадал!");
-  trueans += 1;
+  alert("Верно!");
+ score += 1;
 } else {
-  alert("Не угадал!")
+  alert("Не верно!")
 }
 
-alert("Итого правильных ответов: " + trueans)
+alert("Итого правильных ответов: " + score)
 
 </script>
